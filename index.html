@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CerDiQ - Pondok Tahfizh Al Khair</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Kustom CSS tambahan jika diperlukan */
+    </style>
+  </head>
+  <body class="bg-white text-gray-800">
+    <!-- Beranda Section -->
+    <section id="home" class="bg-gray-100">
+      <header class="bg-red-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+          <div class="logo">
+            <img
+              src="img/logo.png"
+              alt="Pondok Tahfizh Al Khair CerDiQ"
+              class="w-24"
+            />
+          </div>
+          <nav>
+            <ul class="flex space-x-6">
+              <li><a href="#home" class="hover:text-gray-300">Beranda</a></li>
+              <li>
+                <a href="#about" class="hover:text-gray-300">Tentang Kami</a>
+              </li>
+              <li>
+                <a href="#program" class="hover:text-gray-300">Program</a>
+              </li>
+              <li><a href="#gallery" class="hover:text-gray-300">Galeri</a></li>
+              <li>
+                <a href="#contact" class="hover:text-gray-300">Kontak Kami</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+
+      <div
+        class="banner bg-cover bg-center h-96 flex flex-col justify-center items-center text-center text-white"
+        style="background-image: url('img/banner.jpg')"
+      >
+        <h1 class="text-5xl font-bold mb-4">Mewujudkan Generasi Qur'ani</h1>
+        <p class="text-xl mb-8">
+          Bergabunglah dengan kami dalam perjalanan menghafal Al-Qur'an.
+        </p>
+        <a
+          href="formulir-pendaftaran.html"
+          class="bg-white text-red-600 py-3 px-6 rounded-lg hover:bg-gray-200 transition"
+        >
+          Daftar Sekarang
+        </a>
+      </div>
+
+      <div class="about py-16 text-center">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">Tentang CerDiQ</h2>
+          <p class="text-lg mb-6">
+            CerDiQ adalah lembaga yang berkomitmen untuk membantu santri dalam
+            menghafal Al-Qur'an dengan fasilitas yang nyaman dan bimbingan dari
+            pengajar berpengalaman.
+          </p>
+        </div>
+      </div>
+
+      <div class="featured-programs py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">Program Unggulan</h2>
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <h3 class="text-xl font-semibold text-red-600 mb-2">
+                Karantina Takhossus Tahfizhul Qur'an
+              </h3>
+              <p class="text-gray-700">
+                Program intensif untuk penghafalan Al-Qur'an.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <h3 class="text-xl font-semibold text-red-600 mb-2">
+                Pra Tahsin / Tahsin
+              </h3>
+              <p class="text-gray-700">
+                Program untuk meningkatkan kemampuan membaca Al-Qur'an.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <h3 class="text-xl font-semibold text-red-600 mb-2">
+                Dasar Komputer / Graphic Design
+              </h3>
+              <p class="text-gray-700">
+                Pelatihan dasar di bidang komputer dan desain grafis.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <h3 class="text-xl font-semibold text-red-600 mb-2">
+                Dauroh Bahasa Arab / Inggris
+              </h3>
+              <p class="text-gray-700">
+                Program untuk meningkatkan kemampuan bahasa.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <h3 class="text-xl font-semibold text-red-600 mb-2">
+                Bootcamp Web Development
+              </h3>
+              <p class="text-gray-700">
+                Pelatihan intensif untuk menjadi web developer.
+              </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg">
+              <h3 class="text-xl font-semibold text-red-600 mb-2">
+                Taman Pendidikan Qur'an
+              </h3>
+              <p class="text-gray-700">
+                Pembelajaran Al-Qur'an untuk anak-anak.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="facilities py-16 text-center">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">Fasilitas</h2>
+          <p class="text-lg mb-6">
+            Kami menyediakan fasilitas yang mendukung penghafalan Al-Qur'an dan
+            pembelajaran yang efektif.
+          </p>
+          <ul class="list-disc list-inside text-gray-700">
+            <li>Lingkungan Qur'ani yang kondusif</li>
+            <li>Dukungan bimbingan dari pengajar berpengalaman</li>
+            <li>Makanan 3 kali sehari dengan menu sehat</li>
+            <li>Ruang belajar yang nyaman dan fasilitas pendukung</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="testimonials py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">Testimoni</h2>
+          <blockquote class="bg-white p-6 rounded-lg shadow-lg mb-4">
+            <p class="text-lg italic">
+              "Pengalaman di CerDiQ sangat luar biasa. Saya bisa menghafal
+              Al-Qur'an dengan cepat dan mudah!"
+            </p>
+            <cite class="block mt-4 text-gray-600">- Alumni CerDiQ</cite>
+          </blockquote>
+          <blockquote class="bg-white p-6 rounded-lg shadow-lg mb-4">
+            <p class="text-lg italic">
+              "Tim pengajar sangat membantu dan fasilitasnya sangat mendukung."
+            </p>
+            <cite class="block mt-4 text-gray-600">- Alumni CerDiQ</cite>
+          </blockquote>
+        </div>
+      </div>
+
+      <div class="news py-16 text-center">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">Berita & Artikel</h2>
+          <p class="text-lg mb-4">
+            Dapatkan informasi terbaru mengenai program dan acara kami.
+          </p>
+          <a
+            href="#articles"
+            class="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-500 transition"
+            >Lihat Berita Terbaru</a
+          >
+        </div>
+      </div>
+
+      <div class="faq py-16 bg-gray-100 text-center">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">FAQ</h2>
+          <p class="text-lg mb-4">
+            Jawaban atas pertanyaan umum yang sering ditanyakan oleh calon
+            peserta dan orang tua.
+          </p>
+          <a
+            href="#faq"
+            class="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-500 transition"
+            >Lihat FAQ</a
+          >
+        </div>
+      </div>
+
+      <div class="registration py-16 text-center">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">Pendaftaran</h2>
+          <p class="text-lg mb-4">
+            Formulir pendaftaran online untuk bergabung dengan CerDiQ.
+          </p>
+          <a
+            href="#registration"
+            class="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-500 transition"
+            >Daftar Sekarang</a
+          >
+        </div>
+      </div>
+
+      <div class="gallery py-16 text-center">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold text-red-600 mb-8">Galeri</h2>
+          <p class="text-lg mb-4">
+            Foto-foto kegiatan dan acara yang telah dilaksanakan di CerDiQ.
+          </p>
+          <a
+            href="#gallery"
+            class="bg-red-600 text-white py-3 px-6 rounded-lg hover:bg-red-500 transition"
+            >Lihat Galeri</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- Alur Pendaftaran Section -->
+    <section class="py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-red-600">Alur Pendaftaran</h2>
+        <p class="mt-4 text-lg text-gray-600">
+          Ikuti langkah-langkah berikut untuk mendaftar.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+        <!-- Step 1 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-red-600">
+            Mengisi Formulir Pendaftaran
+          </h3>
+          <p class="mt-4 text-gray-600">
+            Daftar dan isi formulir pendaftaran dengan mengklik tombol “DAFTAR
+            SEKARANG”.
+          </p>
+        </div>
+        <!-- Step 2 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-red-600">
+            Screening Berkas dan Interview
+          </h3>
+          <p class="mt-4 text-gray-600">
+            Calon peserta akan menjalani proses screening berkas dan wawancara.
+          </p>
+        </div>
+        <!-- Step 3 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-red-600">
+            Transfer Biaya Pendaftaran dan Akomodasi
+          </h3>
+          <p class="mt-4 text-gray-600">
+            Silakan melakukan transfer biaya pendaftaran dan akomodasi ke
+            rekening yang disediakan.
+          </p>
+        </div>
+        <!-- Step 4 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-red-600">
+            Konfirmasi Pendaftaran
+          </h3>
+          <p class="mt-4 text-gray-600">
+            Setelah mengisi formulir dan melakukan transfer, silakan konfirmasi
+            melalui WhatsApp.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Fasilitas Program Section -->
+    <section class="bg-gray-100 py-16">
+      <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold text-red-600">Fasilitas Program</h2>
+        <p class="mt-4 text-lg text-gray-600">
+          Peserta Pondok TahfizhQu Al Khair CerDiQ akan mendapatkan fasilitas
+          berikut:
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+        <!-- Fasilitas 1 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-red-600">Media Belajar</h3>
+          <p class="mt-4 text-gray-600">
+            Al-Qur'an Yadain, Buku Mutaba’ah, Buku Amalan
+          </p>
+        </div>
+        <!-- Fasilitas 2 -->
+        <div class="bg-white shadow-md rounded-lg p-6">
+          <h3 class="text-xl font-semibold text-red-600">Pembekalan</h3>
+          <p class="mt-4 text-gray-600">Tahsin Tilawah dan Metode Yadain</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="program" class="py-10 bg-gray-50">
+      <div class="max-w-screen-xl mx-auto px-4">
+        <h2 class="text-3xl font-semibold text-center text-red-600 mb-6">
+          Program dan Fasilitas CerDiQ
+        </h2>
+
+        <div class="space-y-8">
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-2xl font-semibold text-red-600">
+              1. Karantina Takhossus Tahfizh Al-Qur’an
+            </h3>
+            <p>
+              Program intensif selama satu bulan untuk peserta yang ingin fokus
+              menghafal Al-Qur’an dengan target minimal 2 juz.
+            </p>
+            <h4 class="font-semibold">Fasilitas yang Didapatkan:</h4>
+            <ul class="list-disc ml-5">
+              <li>Penginapan nyaman selama masa karantina</li>
+              <li>Makanan 3 kali sehari dan coffe break</li>
+              <li>Pendampingan intensif 12 jam/hari</li>
+              <li>Buku Mutaba’ah untuk mencatat kemajuan hafalan</li>
+              <li>Sertifikat penyelesaian program</li>
+              <li>Laundry (2 hari sekali)</li>
+              <li>Lingkungan Qur'ani untuk mendukung proses hafalan</li>
+              <li>Dokumentasi kegiatan dan wisuda</li>
+            </ul>
+          </div>
+
+          <div class="bg-white p-6 rounded-lg shadow">
+            <h3 class="text-2xl font-semibold text-red-600">
+              2. Pra Tahsin / Tahsin Gratis
+            </h3>
+            <p>
+              Program ini bertujuan untuk membantu peserta dalam memperbaiki
+              tajwid dan teknik membaca Al-Qur’an secara benar.
+            </p>
+            <h4 class="font-semibold">Fasilitas yang Didapatkan:</h4>
+            <ul class="list-disc ml-5">
+              <li>Pembekalan standard akselerasi tahsin</li>
+              <li>Bimbingan dari pengajar berpengalaman</li>
+              <li>Buku panduan tajwid dan bacaan Al-Qur’an</li>
+            </ul>
+          </div>
+
+          <!-- Tambahkan bagian program lainnya di sini dengan cara yang sama -->
+
+          <div class="text-center">
+            <a
+              href="#registration"
+              class="mt-6 inline-block bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700"
+              >Daftar Sekarang dan Bergabunglah dengan Kami!</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-red-600 text-white py-4">
+      <div class="container mx-auto text-center">
+        <p>&copy; 2024 Pondok Tahfizh Al Khair CerDiQ. All Rights Reserved.</p>
+        <p>
+          Kontak:
+          <a href="mailto:info@cerdiq.com" class="underline">info@cerdiq.com</a>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

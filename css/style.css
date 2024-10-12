@@ -1,0 +1,17 @@
+/* Kustom CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Reveal animation (untuk elemen yang muncul saat scroll) */
+  .reveal {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.5s ease;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
